@@ -1,182 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Miguel's Personal Site</title>
-        <link rel="stylesheet" href="css/styles.css" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="icon" href="favicon.ico" />
-    </head>
-    <body>
-        <div class="profile">
-            <div class="profile-img-container">
-                <img
-                    class="profile-picture"
-                    src="https://lh3.googleusercontent.com/d2zu56wQknl1so7PTb0h-cVWL4gw5toxDfOukFrFxnAwUezswpnU9mKrEJWbBDYgVTzPRDc1OQ90BnI6Q79n-oTTNiHt8Ik3j2WKToqz8AxNZAqZ6QnndiM7iJZpA_ZBU2ttzr3vSogMUqBEucXcsARIjvjFh0H8rOZAZw2HphHAdXKT1WBhVT0jvne9jWDgWFNUo_4RBXdmWzOVEJaaQHLyfBbS_DTXiykXqQAd_gQJZ3IYIrPkD4b9WB3CMw4Zi5r9DkESeQbg47VlMdTw0DQ1u4_x2q8JNh2LS4NANLQOSAQoeDV_4hvrm__YnjH73zDgSQwBr9WkLYoyXDNHv0LHqmwRGjbjQw60qkg-roP9Sd0gwIO01nwR5kDN9Hj3ydYx62VxnZiTL7XnLTiryG7qNJMRd9RR5w8I62ZlAWY4oeeTV7MMCBReE2gXrCBpkk73yh53xfH9DwsP3-rIiqkxwgbXzRWPmGvHhCNRwvaX4awyrxIsPF3ziyW6snQlBKN4KpIlza4cKsVw29X8PjoSMctH7EM39t29wjcaAMg2p3GNIAFreG8dhAIPB4JNep6hlQiaZgqKlFQSrHxAnGpWMnHH1i6Klk5i9XYnMqJ8LGQP5NmQ_H2tqlqG9xkqQBhv77UJDA3s7ijjzp-zb_whHQJzj2O45oqYBC7IsdAztXJBMjXVQpLCghl0=s640-no?authuser=1"
-                    alt="miguel profile picture"
-                    height="200"
-                    width="200"
-                />
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miguel's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <h1>Holaaa!!</h1>
+        <p>Este es el nuevo header de mi CV :D</p>
+    </header>
+    <main>
+        <section class="presentation info-section">
+            <h2 class="presentation__title">Miguel Angel Toledo Santiago</h2>
+            <div class="presentation__degree">
+                <p>Ing. Sistemas Computacionales</p>
+                <p>Desarrollador Web</p>
             </div>
-            <div>
-                <h1>Miguel Angel Toledo Santiago</h1>
-                <p>
-                    <strong>Ing. Sistemas Computacionales</strong>
-                    y desarrollador Web
-                </p>
-                <p>
-                    Estudiante de Ing. Sistemas Computacionales, me especializo
-                    en el desarrollo web y movil, Titulo como Profesional
-                    Técnico en Informatica, me gusta la naturaleza y los
-                    animales.
-                </p>
-            </div>
-        </div>
-        <hr />
-        <div class="education">
-            <h3>Educación</h3>
-            <table cellspacing="10" class="education-table">
-                <thead>
-                    <tr>
-                        <th>Años</th>
-                        <th>Escuelas</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2014-2017</td>
-                        <td>
-                            <p>
-                                Colegio Nacional de Educación Profesional
-                                Técnica.
-                                <a
-                                    target="_blank"
-                                    href="https://www.gob.mx/conalep/"
-                                >
-                                    CONALEP
-                                </a>
-                            </p>
-                            <p>
-                                Conocí varias ramas de la computacion, temas
-                                como introducción a redes e introducción a la
-                                programación.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2017-2021</td>
-                        <td>
-                            <p>
-                                Instituto Tecnológico del Istmo.
-                                <a
-                                    target="_blank"
-                                    href="http://istmo.tecnm.mx/"
-                                >
-                                    ITI
-                                </a>
-                            </p>
-                            <p>
-                                Aquí profundice mis conocimientos respecto a la
-                                computación en general, temas como programación,
-                                algoritmos, redes, machine learning y gestión de
-                                proyectos
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
+            <p class="presentation__about">
+                Estudiante de Ing. Sistemas Computacionales, me especializo
+                en el desarrollo web y movil.
+            </p>
+        </section>
+    </main>
+    <hr />
+    <div class="education">
+        <h3>Educación</h3>
+        <table cellspacing="10" class="education-table">
+            <thead>
+                <tr>
+                    <th>Años</th>
+                    <th>Escuelas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2014-2017</td>
+                    <td>
+                        <p>
+                            Colegio Nacional de Educación Profesional
+                            Técnica.
+                            <a target="_blank" href="https://www.gob.mx/conalep/">
+                                CONALEP
+                            </a>
+                        </p>
+                        <p>
+                            Conocí varias ramas de la computacion, temas
+                            como introducción a redes e introducción a la
+                            programación.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2017-2021</td>
+                    <td>
+                        <p>
+                            Instituto Tecnológico del Istmo.
+                            <a target="_blank" href="http://istmo.tecnm.mx/">
+                                ITI
+                            </a>
+                        </p>
+                        <p>
+                            Aquí profundice mis conocimientos respecto a la
+                            computación en general, temas como programación,
+                            algoritmos, redes, machine learning y gestión de
+                            proyectos
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr />
+    <div class="skills">
+        <h3>Habilidades t&eacute;cnicas</h3>
+        <div class="skill-tables">
+            <table cellspacing="10">
+                <tr>
+                    <td>Node JS</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Express JS</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>GraphQL</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Prisma ORM</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Mongoose</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>MongoDB</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>PostgreSQL</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </table>
+            <table cellspacing="10">
+                <tr>
+                    <td>HTML</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>⭐</td>
+                </tr>
+                <tr>
+                    <td>React JS</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>React Native</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>React Router</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>React Navigation</td>
+                    <td>⭐⭐</td>
+                </tr>
             </table>
         </div>
-        <hr />
-        <div class="skills">
-            <h3>Habilidades t&eacute;cnicas</h3>
-            <div class="skill-tables">
-                <table cellspacing="10">
-                    <tr>
-                        <td>Node JS</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Express JS</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>GraphQL</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Prisma ORM</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Mongoose</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>MongoDB</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>PostgreSQL</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                </table>
-                <table cellspacing="10">
-                    <tr>
-                        <td>HTML</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Bootstrap</td>
-                        <td>⭐</td>
-                    </tr>
-                    <tr>
-                        <td>React JS</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>React Native</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>React Router</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>React Navigation</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <hr />
-        <div class="contact-me">
-            <h3>Cont&aacute;ctame</h3>
-            <form
-                action="mailto:geaglts@gmail.com"
-                method="POST"
-                enctype="text/plain"
-                class="contact-form"
-            >
-                <label>Tu nombre</label>
-                <input type="text" name="Your Name" value="" /> <br />
-                <label>Tu correo</label>
-                <input type="email" name="Your Email" value="" /> <br />
-                <label>Tu mensaje</label> <br />
-                <textarea name="Your Message" cols="30" rows="10"></textarea>
-                <br />
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-        <footer>
-            <p>Miguel Angel 2020 &copy;</p>
-        </footer>
-    </body>
+    </div>
+    <hr />
+    <div class="contact-me">
+        <h3>Cont&aacute;ctame</h3>
+        <form action="mailto:geaglts@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+            <label>Tu nombre</label>
+            <input type="text" name="Your Name" value="" /> <br />
+            <label>Tu correo</label>
+            <input type="email" name="Your Email" value="" /> <br />
+            <label>Tu mensaje</label> <br />
+            <textarea name="Your Message" cols="30" rows="10"></textarea>
+            <br />
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>Miguel Angel 2020 &copy;</p>
+    </footer>
+</body>
+
 </html>
